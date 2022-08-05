@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ResourceQuota
 metadata: # kpt-merge: example/base
   name: base
-  namespace: example
+  namespace: backend
   annotations:
     internal.kpt.dev/upstream-identifier: '|ResourceQuota|example|base'
 spec:
